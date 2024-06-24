@@ -42,17 +42,17 @@ Navegue até o diretório raiz do projeto
 Execute o comando "bundle exec cucumber" no terminal.
 
 **Cenários**
-1- Cenário
+Cenário 1
 Dado a string de entrada “bananas, tomates # e ventiladores”
 E os marcadores [“#”, “!”]
 Então a saída esperada é: “bananas, tomates” 
 
-2- Cenário
+Cenário 2
 Dado a string de entrada “o rato roeu a roupa $ do rei % de roma”
 E os marcadores [“%”, “!”]
 Então a saída esperada é: “o rato roeu a roupa $ do rei”
 
-3- Cenário
+Cenário 3
 Dado a string de entrada “the quick brown fox & jumped over * the lazy dog”
 E os marcadores [“&”, “*”, “%”, “!”]
 Então a saída esperada é: “the quick brown fox”
